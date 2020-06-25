@@ -9,3 +9,4 @@ make -C $workDir/$uBootVer CROSS_COMPILE=arm-linux-gnueabihf- -j 8
 cp $workDir/$uBootVer/u-boot /mnt/sdcard1
 cp $workDir/$uBootVer/u-boot.bin /mnt/sdcard1
 cp $workDir/$uBootVer/u-boot ./u-boot
+chmod 777 ./u-boot
