@@ -24,7 +24,7 @@ chroot $ROOTFS_DIR /debootstrap/debootstrap --second-stage
 echo "Create apt sources"
 
 cat > $ROOTFS_DIR/etc/apt/sources.list << EOF
-deb http://120.117.72.71/debian/ $DEBIAN_VERSION main contrib
+deb http://120.117.72.30/debian/ $DEBIAN_VERSION main contrib
 deb http://opensource.nchc.org.tw/debian/ $DEBIAN_VERSION main contrib
 # deb http://security.debian.org/ $DEBIAN_VERSION/updates main
 EOF

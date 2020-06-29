@@ -7,3 +7,4 @@ apt install xorg icewm vim net-tools gcin libappindicator3-dev \
         qemu qemu-kvm qemu-system:armhf qemu-user:armhf qemu-user-static \
       	debootstrap rsync git nautilus libncurses5-dev -y
 git clone https://github.com/a114tw123/embedded.git
+reboot
